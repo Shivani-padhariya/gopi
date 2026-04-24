@@ -31,7 +31,7 @@ export function Header() {
     <>
       {/* Top Contact Bar */}
       <div className="hidden lg:block bg-white border-b border-gray-100 relative h-[45px] overflow-hidden">
-        <div className="container mx-auto px-4 flex items-center justify-between h-full relative z-10">
+        <div className="container mx-auto px-2 flex items-center justify-between h-full relative z-10">
           <div className="flex items-center gap-8 text-[13px] text-gray-700 font-medium">
             <a href="mailto:sales@gopi.ltd" className="flex items-center gap-2 hover:text-[#c8102e] transition-colors">
               <Mail size={14} className="text-[#c8102e]" />
@@ -70,7 +70,7 @@ export function Header() {
 
       {/* Main Header */}
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-lg py-6" : "bg-white/95 py-8"
+        className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white shadow-lg py-4" : "bg-white/95 py-4"
           }`}
       >
         <div className="container mx-auto px-4 flex items-center justify-between">
